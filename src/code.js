@@ -110,6 +110,13 @@ function contactPage() {
     email.textContent = "enockaymwema@.com";
     div1.appendChild(email);
     
+   //create div 9
+    const div9 = document.createElement("div");
+    div9.classList.add("contact-location");
+    div.appendChild(div9);
+    
+
+
    
 
     return div
